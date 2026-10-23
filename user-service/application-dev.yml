@@ -1,0 +1,9 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/users
+    username: ticketing
+    password: ticketing
+  liquibase:
+    url: jdbc:postgresql://localhost:5432/users
+    user: ticketing
+    password: ticketing
